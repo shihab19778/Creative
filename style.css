@@ -39,6 +39,11 @@ a{
     font-size: 18px;
     border: none;
     cursor: pointer;
+   
 
+}
+.navbar ul li a:hover{
+    color: #5956E8;
+    transition: 0.4s;
 }
 /* Navbar End */
