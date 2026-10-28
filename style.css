@@ -11,8 +11,7 @@
     align-items: center;
     margin-left: 19%;
     margin-right: 19%;
-    
-    margin-top: 33px;
+   
 }
 ul {
     list-style: none;
@@ -103,3 +102,74 @@ p{
 
 /* {
 Bnannerr End */
+
+/* Cart Section start */
+h2{
+   text-align: center;
+   margin-top: 100px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.service-text{
+    text-align: center;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.cart1, .cart2 , .cart3 {
+    width: 370px;
+    height: 385px;
+    border: 0.5px solid #eaeaea;
+    border-radius: 10px; 
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+.cart1:hover, .cart2:hover, .cart3:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}
+.cart-section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.cart1  a{
+   padding-left: 35px;
+  padding-top: 63px;
+  display: block;
+}
+.cart2  a{
+   padding-left: 35px;
+  padding-top: 63px;
+  display: block;
+}
+.cart3  a{
+   padding-left: 35px;
+  padding-top: 63px;
+  display: block;
+}
+h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 35px;
+    margin-top: 30px;
+
+}
+.cart-p{
+   /* padding-top: 20px; */
+   padding-left: 35px;
+   color: #181818;
+   font-size: 16px;
+   font-weight: 400;
+
+
+}
+.cart-section-2{
+   display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+/* Cart Section End */
