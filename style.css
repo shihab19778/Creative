@@ -209,9 +209,8 @@ h3{
 }
 .imagesec2{
     display: flex;
-    gap: 30px
-    ;
-    padding-top: 30px;
+    gap: 30px;
+    margin-top: 25px;
 }
 .imagemain{
     margin-left: 375px;
