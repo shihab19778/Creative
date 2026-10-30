@@ -211,11 +211,13 @@ h3{
     display: flex;
     gap: 30px
     ;
+    padding-top: 30px;
 }
 .imagemain{
     margin-left: 375px;
     margin-right: 375px;
     margin-top: 50px;
+
 }
 
 
