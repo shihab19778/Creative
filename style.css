@@ -1,6 +1,10 @@
 *{
-     font-family: "Inter", sans-serif;
-     box-sizing: border-box;
+    margin-top: 8px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
    
 }
 
@@ -218,6 +222,49 @@ h3{
     margin-top: 50px;
 
 }
+.imagesec1 div,
+.imagesec2 div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imagesec1 img,
+.imagesec2 img {
+    display: block;
+}
+
+/* Hover Box */
+
+.imagesec1 div::after,
+.imagesec2 div::after {
+    content: "Graphic Design \A See Details  →";
+    white-space: pre;
+
+    position: absolute;
+    bottom: 15px;
+    left: 7%;
+    width: 86%;
+    padding: 20px 0;
+
+    background: #5956E9;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 10px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.4s ease;
+}
+
+.imagesec1 div:hover::after,
+.imagesec2 div:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
   /* Portfolio section End */
@@ -432,3 +479,51 @@ h3{
 
   }
 /* latest news sec */
+
+
+/* footer section start */
+footer{
+  width: 100%;
+ height: 441px;
+ background-color: rgba(89, 86, 232, 0.1); 
+ 
+ 
+ margin-top: 100px;   
+}
+.footer-logo{
+   padding-left: 375px; 
+  
+}
+footer p{
+    line-height: 27px;
+    color: #5D5D5D;
+    width: 300px;
+    line-height: 27px;
+}
+
+.footer-company,.footer-product,.footer-support,footer-contact h4{
+
+    font-weight: 600;
+    font-size: 20px;
+   
+    color: #181818;
+
+}
+
+.footer-ul li a{
+     color:#5D5D5D;
+     font-size: 16px;
+
+}
+   
+
+.footer{
+    display: flex;
+    gap: 93px;
+    padding-top: 100px;
+   
+}
+
+/* 
+
+footer section end */
